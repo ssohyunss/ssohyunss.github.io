@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <title>PALETTE</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.html">PALETTE</a></div>
+        <nav>
+            <ul>
+                <li><a href="#" id="menu-icon">NOTICE</a></li>
+                <li><a href="#" id="menu-icon">RANKING</a></li>
+                <li><a href="#" id="menu-icon">REIVIEW</a></li>
+                <li><a href="#" id="menu-icon">EVENT</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('nav').toggleClass('active')
+            }), $('.slider').bxSlider({
+                auto: true
+            })
+        })
+    </script>
+    <div class="main_image">
+        <h1>search</h1>
+        <form>
+            <h1>PALETTE 화장품 찾기</h1>
+            <h4>당신이 원하는 화장품을 손쉽게 찾아보세요.</h4>
+            <input type="text" name="search" placeholder="카테고리, 피부타입, 브랜드별">
+            <input type="submit" class="search" value="화장품검색"> </form>
+    </div>
+    <section class="conB" id="main-con">
+        <div class="container">
+            <div class="text"> <span><i class="far fa-question-circle icon"></i></span>
+                <div class="main-container">
+                    <h2>고민이세요?</h2>
+                    <p>많은 화장품 중에
+                        <br>어떤것을사야할지
+                        <br>고민이세요?</p>
+                </div>
+            </div>
+            <div class="text"> <span><i class="fas fa-search icon"></i></span>
+                <div class="main-container">
+                    <h2>검색해보세요!</h2>
+                    <p>카테고리, 라인, 브랜드별로
+                        <br>검색해보세요.</p>
+                </div>
+            </div>
+            <div class="text"> <span><i class="far fa-check-circle icon"></i></span>
+                <div class="main-container">
+                    <h2>찾아드려요!</h2>
+                    <p>화장품의 랭킹과 리뷰를 통해
+                        <br>최적의 상품을
+                        <br>찾아드립니다.</p>
+                </div>
+            </div>
+            <div class="text"> <span><i class="far fa-grin icon"></i></span>
+                <div class="main-container">
+                    <h2>함께하실래요?</h2>
+                    <p>당신의 리뷰를 통해
+                        <br>다른 사용자에게
+                        <br>도움을 줄 수 있습니다.
+                        <br>함께하실래요?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="notice">
+        <h1>NOTICE</h1>
+        <section class="conB">
+            <div class="container" id="notice-con">
+                <div class="text"> <img src="/img/notice_01.png" />
+                    <div class="text-container">
+                        <h2>[젤라또팩토리]</h2>
+                        <p>매직프레스 스테디셀러 40% 할인</p>
+                        <p>10월25일(목) ~ 10월31일(수)</p>
+                    </div>
+                </div>
+                <div class="text"> <img src="/img/notice_02.png" />
+                    <div>
+                        <div class="text-container">
+                            <h2>[롬앤]</h2>
+                            <p>원하는 컬러 PICK + PICK</p>
+                            <p>10월24일(수) ~ 10월26일(금)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text"> <img src="/img/notice_03.png" />
+                    <div>
+                        <div class="text-container">
+                            <h2>[siero]</h2>
+                            <p>멀티 블러셔 신제품 런칭 기념 30% 할인</p>
+                            <p>10월26일(금) ~ 11월4일(일)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="rank">
+        <h1>RANINKG</h1>
+        <div class="rankContainer">
+            <!--mySlider-->
+            <div class="rankGroup">
+                <div class="slider">
+                    <!--slider-->
+                    <div class="rank-context"><img src="img/fond-rank-1.png">
+                        <h3>1위 나스</h3>
+                        <p>아쿠아 글로우 쿠션</p>
+                    </div>
+                    <div><img src="img/fond-rank-2.png">
+                        <h3>2위 에스티로더</h3>
+                        <p>아쿠아 브릴리언스 파운데이션</p>
+                    </div>
+                    <div><img src="img/fond-rank-3.png">
+                        <h3>3위 에스티로더</h3>
+                        <p>더블 웨어 스테이 인 플레이스</p>
+                    </div>
+                    <div><img src="img/fond-rank-4.png">
+                        <h3>4위 랑콤</h3>
+                        <p>뗑 이돌 롱라스팅 파운데이션</p>
+                    </div>
+                    <div><img src="img/fond-rank-5.jpg">
+                        <h3>5위 정샘물</h3>
+                        <p>에센셜 스킨 누더 쿠션</p>
+                    </div>
+                </div>
+            </div>
+            <p class="title"><b>파운데이션 랭킹</b></p>
+        </div>
+        <div class="rankContainer">
+            <!--mySlider-->
+            <div class="rankGroup">
+                <div class="slider">
+                    <!--slider-->
+                    <div><img src="img/eye-rank-1.jpg">
+                        <h3>1위 에스쁘아</h3>
+                        <p>페인팅 워트프루프 아이펜슬</p>
+                    </div>
+                    <div><img src="img/eye-rank-2.png">
+                        <h3>2위 컬러그램</h3>
+                        <p>킹아이 크림 라이너</p>
+                    </div>
+                    <div><img src="img/eye-rank-3.JPG">
+                        <h3>3위 릴리바이레드</h3>
+                        <p>스태리 나인투나인 아이라이너</p>
+                    </div>
+                    <div><img src="img/eye-rank-4.png">
+                        <h3>4위 케이트</h3>
+                        <p>핏 레어 젤 펜슬</p>
+                    </div>
+                    <div><img src="img/eye-rank-5.png">
+                        <h3>5위 클리오</h3>
+                        <p>샤프심플 워트프루프 라이너</p>
+                    </div>
+                </div>
+            </div>
+            <p class="title"><b>아이라이너 랭킹</b></p>
+        </div>
+        <div class="rankContainer">
+            <!--mySlider-->
+            <div class="rankGroup">
+                <div class="slider">
+                    <!--slider-->
+                    <div><img src="img/con-rank-1.png">
+                        <h3>1위 나스</h3>
+                        <p>소프트 매트 컴플리트 컨실러</p>
+                    </div>
+                    <div><img src="img/con-rank-2.png">
+                        <h3>2위 나스</h3>
+                        <p>래디언트 크리미 컨실러</p>
+                    </div>
+                    <div><img src="img/con-rank-3.png">
+                        <h3>3위 웨이크메이크</h3>
+                        <p>디파이닝 커버 컨실러</p>
+                    </div>
+                    <div><img src="img/con-rank-4.png">
+                        <h3>4위 에스티로더</h3>
+                        <p>스테이 인 플레이스 컨실러</p>
+                    </div>
+                    <div><img src="img/con-rank-5.png">
+                        <h3>5위 에스쁘아</h3>
+                        <p>테이핑 컨실러 롱웨어</p>
+                    </div>
+                </div>
+            </div>
+            <p class="title"><b>컨실러 랭킹</b></p>
+        </div>
+        <div class="rankContainer">
+            <!--mySlider-->
+            <div class="rankGroup">
+                <div class="slider">
+                    <!--slider-->
+                    <div><img src="img/rip-rank-1.png">
+                        <h3>1위 RMK</h3>
+                        <p>립 젤리 글로스</p>
+                    </div>
+                    <div><img src="img/rip-rank-2.jpg">
+                        <h3>2위 캣본디</h3>
+                        <p>에버라스팅 리퀴드 립스틱
+                            <p>
+                    </div>
+                    <div><img src="img/rip-rank-3.png">
+                        <h3>3위 슈에무라</h3>
+                        <p>라끄 슈프림</p>
+                    </div>
+                    <div><img src="img/rip-rank-4.png">
+                        <h3>4위 나스</h3>
+                        <p>파워매트 립 피그먼트</p>
+                    </div>
+                    <div><img src="img/rip-rank-5.jpg">
+                        <h3>5위 에스티로더</h3>
+                        <p>퓨어 칼라 엔비 리퀴드 립 포션</p>
+                    </div>
+                </div>
+            </div>
+            <p class="title"><b>립-글로스 랭킹</b></p>
+        </div>
+    </div>
+    <div class="review">
+        <h1>REVIEW</h1>
+        <div class="responsive2">
+            <div class="gallery2">
+                <a href="#"><img src="img/rev-1.JPG"></a>
+                <div class="des2">
+                    <p><b>립 발색 완전 좋아요~!</b></p>
+                    <br>
+                    <p class="rev-content">오일성분이 들어가있어 발림성도 좋고 발색도 완전 좋네요~ㅡ~ 가격이 조금 비싼 편이지만 좋습니다!</p>
+                    <br>
+                    <p><b>[ssohyunss]</b></p>
+                    <div class="star"> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="far fa-star icon"></i></span> </div>
+                </div>
+            </div>
+        </div>
+        <div class="responsive2">
+            <div class="gallery2">
+                <a href="#"><img src="img/rev-2.png"></a>
+                <div class="des2">
+                    <p><b>나스쿠션 소울 후기요!!</b></p>
+                    <br>
+                    <p class="rev-content">색상때문에 고민 많이 했는데 리뷰보고 소울색상으로 구매했어요 어둡지 않고 피부톤에 잘맞더라구요!!</p>
+                    <br>
+                    <p><b>[절미쨩~]</b></p>
+                    <div class="star"> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> </div>
+                </div>
+            </div>
+        </div>
+        <div class="responsive2">
+            <div class="gallery2">
+                <a href="#"><img src="img/rev-3.png"></a>
+                <div class="des2">
+                    <p><b>아이브로우.. 베네핏..♥</b></p>
+                    <br>
+                    <p class="rev-content">왜 베네핏 베네핏 하는지 이제 알겠네요 잘 지워지지도 않아서 여름에도 자주 애용할것같아요ㅎㅎㅎㅎ</p>
+                    <br>
+                    <p><b>[ss_love]</b></p>
+                    <div class="star"> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> </div>
+                </div>
+            </div>
+        </div>
+        <div class="responsive2">
+            <div class="gallery2">
+                <a href="#"><img src="img/rev-4.png"></a>
+                <div class="des2">
+                    <p><b>진저!유명해서써봤어요 </b></p>
+                    <br>
+                    <p class="rev-content">피부톤이 까매서 살짝 바르면 많이 티나진 않는데 오히려 자연스럽고 좋더라구요. 유명한 이유가있네요ㅎ</p>
+                    <br>
+                    <p><b>[jimin]</b></p>
+                    <div class="star"> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star icon"></i></span> <span><i class="fas fa-star-half-alt icon"></i></span> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="event">
+        <h1>EVENT</h1>
+        <div class="event-container">
+            <div class="event-content">
+                <a href="#"><img src="img/event-01.png"></a>
+                <div class="event-text">
+                    <p>'글로우 앰플 팩트' 평가단 100명 모집</p>
+                    <div class="button">
+                        <input type="submit" value="참여하기"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-container">
+            <div class="event-content">
+                <a href="#"><img src="img/event-02.png"></a>
+                <div class="event-text">
+                    <p>'에코 소울 스파클링 아이' 평가단 30명 모집</p>
+                    <div class="button">
+                        <input type="submit" value="참여하기"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Footer 영역</h1>
+        <footer class="footer-main-div">
+            <div class="footer-social-icons">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"  ></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-blogger-b"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-one">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </footer>
+        <div class="footer-bottom">
+            <p>&copy; 2018 PALLETE Kwonsohyun DonyangMirae.
+                <br> All RIGHTS RESEVED.</p>
+        </div>
+    </div>
+</body>
+
+</html>
