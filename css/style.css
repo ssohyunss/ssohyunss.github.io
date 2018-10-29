@@ -175,7 +175,7 @@ form h4 {
 }
 
 .title {
-    margin-top: 10px;
+    margin-bottom: 20px;
     color: #ba000c;
 }
 
@@ -189,9 +189,6 @@ form h4 {
     font-size: 12px;
 }
 
-.rankGroup {
-
-}
 
 .rankGroup img {
     width: 100%;
@@ -419,6 +416,13 @@ form h4 {
 }
 
 @media (max-width:852px) {
+
+     .rankContainer {
+        width: 50%;
+        margin: 10px 0;
+        margin-bottom: 30px;
+    }
+
     .responsive2 {
         width: 50%;
         margin: 0;
@@ -427,9 +431,7 @@ form h4 {
     .event-text p {
         font-size: 12px;
     }
-}
 
-@media (max-width:736px) {
     .event-container {
         width: 100%;
         margin: 10px 0;
@@ -463,11 +465,7 @@ form h4 {
         width: 100%;
         margin: 10px 10px;
     }
-    .rankContainer {
-        width: 50%;
-        margin: 10px 0;
-        margin-bottom: 30px;
-    }
+
 }
 
 @media (max-width:488px) {
@@ -521,8 +519,7 @@ form h4 {
     }
 
     .container{
-        margin-left: 20px;
-        margin-bottom: 40px;
+        margin: 20px 40px;
     }
 
     .rank{
@@ -531,14 +528,22 @@ form h4 {
         text-align: center;
     }
 
+    .title{
+        margin-bottom: 5px;
+    }
+
     .rankGroup p{
         text-align: center;
     }
     .rankContainer {
+        padding: 0;
+        margin-top: 20px;
         text-align: center;
         width: 100%;
         height: 200px;
     }
+
+
 
     .rankContainer img{
         width: 100px;
@@ -559,7 +564,7 @@ form h4 {
         padding: 0;
     }
     .gallery2{
-        margin: 10px 20px;
+        margin: 20px 20px;
         display: flex;
 
     }
