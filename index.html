@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <title>PALETTE</title>
 </head>
 
 <body>
+    <!--  헤더 부분 -->
     <header>
         <div class="logo"><a href="index.html">PALETTE</a></div>
+        <!-- 네비게이션 바 부분 -->
         <nav>
             <ul>
                 <li><a href="#" id="menu-icon">NOTICE</a></li>
@@ -22,8 +24,10 @@
                 <li><a href="#" id="menu-icon">EVENT</a></li>
             </ul>
         </nav>
+        <!--      태블릿PC, 모바일 화면전환시 네비게이션 메뉴 아이콘      -->
         <div class="menu-toggle"><i class="fas fa-bars"></i></div>
     </header>
+    <!--    JQUERY, BOX JQUERY 추가 -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script type="text/javascript">
@@ -35,14 +39,17 @@
             })
         })
     </script>
+    <!--    메인페이지 이미지 -->
     <div class="main_image">
         <h1>search</h1>
+        <!--  검색 form 부분 -->
         <form>
             <h1>PALETTE 화장품 찾기</h1>
             <h4>당신이 원하는 화장품을 손쉽게 찾아보세요.</h4>
             <input type="text" name="search" placeholder="카테고리, 피부타입, 브랜드별">
             <input type="submit" class="search" value="화장품검색"> </form>
     </div>
+    <!--    PALETTE 사이트 소개하는 부분     -->
     <section class="conB" id="main-con">
         <div class="container">
             <div class="text"> <span><i class="far fa-question-circle icon"></i></span>
@@ -79,6 +86,7 @@
             </div>
         </div>
     </section>
+    <!--    notice start -->
     <div class="notice">
         <h1>NOTICE</h1>
         <section class="conB">
@@ -111,12 +119,15 @@
             </div>
         </section>
     </div>
+    <!--    notice end-->
+    <!--   rank start -->
     <div class="rank">
         <h1>RANINKG</h1>
+        <!--  파운데이션 랭킹 부분 -->
         <div class="rankContainer">
             <!--mySlider-->
             <div class="rankGroup">
-               <p class="title"><b>파운데이션 랭킹</b></p>
+                <p class="title"><b>파운데이션 랭킹</b></p>
                 <div class="slider">
                     <!--slider-->
                     <div><img src="img/fond-rank-1.png">
@@ -141,12 +152,11 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="rankContainer">
-            <!--mySlider-->
+            <!--  아이라이너 랭킹 부분 -->
             <div class="rankGroup">
-               <p class="title"><b>아이라이너 랭킹</b></p>
+                <p class="title"><b>아이라이너 랭킹</b></p>
                 <div class="slider">
                     <!--slider-->
                     <div><img src="img/eye-rank-1.jpg">
@@ -173,9 +183,9 @@
             </div>
         </div>
         <div class="rankContainer">
-            <!--mySlider-->
+            <!--  컨실러 랭킹부분 -->
             <div class="rankGroup">
-                           <p class="title"><b>컨실러 랭킹</b></p>
+                <p class="title"><b>컨실러 랭킹</b></p>
                 <div class="slider">
                     <!--slider-->
                     <div><img src="img/con-rank-1.png">
@@ -202,7 +212,7 @@
             </div>
         </div>
         <div class="rankContainer">
-            <!--mySlider-->
+            <!--   립-글로스 랭킹 부분   -->
             <div class="rankGroup">
                 <p class="title"><b>립-글로스 랭킹</b></p>
                 <div class="slider">
@@ -232,6 +242,8 @@
             </div>
         </div>
     </div>
+    <!--  rank end  -->
+    <!--  review start  -->
     <div class="review">
         <h1>REVIEW</h1>
         <div class="responsive2">
@@ -287,6 +299,8 @@
             </div>
         </div>
     </div>
+    <!--  review end  -->
+    <!-- event start  -->
     <div class="event">
         <h1>EVENT</h1>
         <div class="event-container">
@@ -310,6 +324,8 @@
             </div>
         </div>
     </div>
+    <!--  event end    -->
+    <!-- footer start  -->
     <div class="footer">
         <h1>Footer 영역</h1>
         <footer class="footer-main-div">
@@ -323,11 +339,9 @@
             </div>
             <div class="footer-menu-one">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li><a href="#">PALETTE COMPANY</a></li>
+                    <li><a href="#">MY PALETTE</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
         </footer>
@@ -336,6 +350,7 @@
                 <br> All RIGHTS RESEVED.</p>
         </div>
     </div>
+    <!--  footer end  -->
 </body>
 
 </html>
